@@ -324,9 +324,9 @@ export default function OccupantForm({
             <h3 className="text-lg font-semibold">
               {isUpdate ? "Edit" : "Add"}{" "}
               {isOccupant && !isNewUser
-                ? "Occupant"
+                ? "Member"
                 : !isOccupant && !isNewUser
-                ? "Owner"
+                ? "Resident"
                 : "User"}
             </h3>
             <p className="text-gray-5 text-sm">

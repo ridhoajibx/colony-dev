@@ -172,7 +172,7 @@ const FloorUnit = (props: Props) => {
           <div className="p-2 bg-primary rounded-md">
             <MdAdd className="w-4 h-4 text-white" />
           </div>
-          <span className="">Add Room</span>
+          <span className="">Add House</span>
         </div>
       </Button>
 

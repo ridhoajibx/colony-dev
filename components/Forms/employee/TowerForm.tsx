@@ -135,7 +135,7 @@ export default function TowerForm(props: Props) {
         className="p-4 bg-white rounded-t-xl border-b-2 border-gray mb-3">
         <div className="flex flex-col">
           <h3 className="text-lg font-semibold">
-            {isUpdate ? "Edit" : "Add"} Tower
+            {isUpdate ? "Edit" : "Add"} Cluster
           </h3>
           <p className="text-gray-4">Fill your Cluster information.</p>
         </div>

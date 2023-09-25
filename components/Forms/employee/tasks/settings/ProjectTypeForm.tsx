@@ -196,10 +196,10 @@ export default function ProjectTypeForm(props: Props) {
         className="p-4 bg-white rounded-t-xl border-b-2 border-gray">
         <div className="w-full flex flex-col gap-1 px-2">
           <h3 className="text-lg font-semibold">
-            {isUpdate ? "Edit" : "Add"} Project Type
+            {isUpdate ? "Edit" : "Add"} Work Order Type
           </h3>
           <p className="text-gray-5 text-sm">
-            Fill your project type information.
+            Fill your work order type information.
           </p>
         </div>
       </ModalHeader>
@@ -209,7 +209,7 @@ export default function ProjectTypeForm(props: Props) {
             <label
               className="text-gray-500 font-semibold text-sm"
               htmlFor="projectTypeName">
-              Project Type Name<span className="text-primary">*</span>
+              Work Order Type Name<span className="text-primary">*</span>
             </label>
             <div className="w-full flex">
               <input

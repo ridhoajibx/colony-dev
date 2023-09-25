@@ -280,7 +280,7 @@ const CusCalendar = ({
                   />
                 </div>
                 <div className="flex justify-center items-center py-3 text-xs font-bold px-2">
-                  List of projects
+                  List of work order
                 </div>
               </div>
             );

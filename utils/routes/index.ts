@@ -412,7 +412,7 @@ export const menuTask: MenuProps[] = [
   {
     subMenus: [
       {
-        pathname: "Project Type",
+        pathname: "Work Order Type",
         url: "/employee/tasks/settings/project-type",
         query: {
           page: 1,

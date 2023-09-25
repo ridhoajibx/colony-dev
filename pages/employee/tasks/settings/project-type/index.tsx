@@ -438,7 +438,7 @@ const ProjectType = ({ pageProps }: Props) => {
     <DefaultLayout
       title="Colony"
       header="Task Management"
-      head="Project Type"
+      head="Work Order Type"
       logo="../../../../image/logo/logo-icon.svg"
       images="../../../../image/logo/building-logo.svg"
       userDefault="../../../../image/user/user-01.png"
@@ -485,7 +485,7 @@ const ProjectType = ({ pageProps }: Props) => {
                   key={"1"}>
                   <div className="flex flex-col gap-1 items-start">
                     <h3 className="w-full lg:max-w-max text-center text-2xl font-semibold text-graydark">
-                      Project type
+                      Work order type
                     </h3>
                   </div>
                 </Button>

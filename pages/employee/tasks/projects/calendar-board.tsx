@@ -593,7 +593,7 @@ const CalendarBoard = ({ pageProps }: Props) => {
                   className="rounded-lg text-sm font-semibold py-3"
                   onClick={onOpenModalAdd}
                   variant="primary">
-                  <span className="hidden lg:inline-block">New Project</span>
+                  <span className="hidden lg:inline-block">New Work Order</span>
                   <MdAdd className="w-4 h-4" />
                 </Button>
               </div>

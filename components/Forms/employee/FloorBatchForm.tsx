@@ -335,7 +335,7 @@ export default function FloorBatchForm(props: Props) {
         className="p-4 bg-white rounded-t-xl border-b-2 border-gray">
         <div className="w-full flex gap-2 items-center justify-between px-2">
           <h3 className="text-lg font-semibold">
-            {isUpdate ? "Edit" : "Add"} Floor
+            {isUpdate ? "Edit" : "Add"} Street
           </h3>
           <div
             className={`flex items-center gap-1 ${isUpdate ? "hidden" : ""}`}>
@@ -487,7 +487,7 @@ export default function FloorBatchForm(props: Props) {
           <div className="w-full mb-3 flex gap-2">
             <div className={`${isChecked ? "w-1/2" : "w-full"}`}>
               <label className="text-gray-500 font-semibold text-sm" htmlFor="">
-                Floor Order <span className="text-primary">*</span>
+                Street Order <span className="text-primary">*</span>
               </label>
               <Controller
                 render={({
@@ -531,7 +531,7 @@ export default function FloorBatchForm(props: Props) {
 
             <div className={`${isChecked ? "w-1/2" : "hidden"}`}>
               <label className="text-gray-500 font-semibold text-sm" htmlFor="">
-                Total Floor <span className="text-primary">*</span>
+                Total Street <span className="text-primary">*</span>
               </label>
               <input
                 type="number"
@@ -553,11 +553,11 @@ export default function FloorBatchForm(props: Props) {
 
           <div className={`w-full mb-3 ${isChecked ? "hidden" : ""}`}>
             <label className="text-gray-500 font-semibold text-sm" htmlFor="">
-              Floor Name <span className="text-primary">*</span>
+              Street Name <span className="text-primary">*</span>
             </label>
             <input
               type="text"
-              placeholder="Floor Name"
+              placeholder="Street Name"
               autoFocus
               className={`bg-white w-full text-sm rounded-lg border border-stroke bg-transparent py-3 px-4 outline-none focus:border-primary focus-visible:shadow-none dark:border-form-strokedark dark:bg-form-input dark:focus:border-primary disabled:border-0 disabled:bg-transparent`}
               {...register("floorName")}

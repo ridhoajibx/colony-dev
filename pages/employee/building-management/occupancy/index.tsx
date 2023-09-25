@@ -189,7 +189,7 @@ const Occupancy = ({ pageProps }: Props) => {
             </div>
           );
         },
-        header: () => <span>Unit</span>,
+        header: () => <span>House</span>,
         footer: (props) => props.column.id,
         // enableSorting: false,
         enableColumnFilter: false,
@@ -206,7 +206,7 @@ const Occupancy = ({ pageProps }: Props) => {
                 type="button"
                 onClick={() => onOpenAddOwner(row?.original)}
                 className="bg-primary text-white px-4 py-2 border border-primary shadow-1 inline-flex items-center rounded-lg text-xs">
-                <span>Add Owner</span>
+                <span>Add Resident</span>
                 <MdAdd className="w-4 h-4" />
               </button>
             );
@@ -242,7 +242,7 @@ const Occupancy = ({ pageProps }: Props) => {
             </div>
           );
         },
-        header: () => <span>Owner</span>,
+        header: () => <span>Resident</span>,
         footer: (props) => props.column.id,
         // enableSorting: false,
         enableColumnFilter: false,
@@ -258,7 +258,7 @@ const Occupancy = ({ pageProps }: Props) => {
                 type="button"
                 onClick={() => onOpenAddOccupant(row?.original)}
                 className="bg-primary text-white px-4 py-2 border border-primary shadow-1 inline-flex items-center rounded-lg text-xs">
-                <span>Add Occupant</span>
+                <span>Add Member</span>
                 <MdAdd className="w-4 h-4" />
               </button>
             );
@@ -294,7 +294,7 @@ const Occupancy = ({ pageProps }: Props) => {
             </div>
           );
         },
-        header: () => <span>Occupant</span>,
+        header: () => <span>Member</span>,
         footer: (props) => props.column.id,
         // enableSorting: false,
         enableColumnFilter: false,

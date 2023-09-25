@@ -319,9 +319,11 @@ export default function ProjectForm(props: Props) {
         className="p-4 bg-white rounded-t-xl border-b-2 border-gray">
         <div className="w-full flex flex-col gap-1 px-2">
           <h3 className="text-lg font-semibold">
-            {isUpdate ? "Edit" : "Add"} Project
+            {isUpdate ? "Edit" : "Add"} Work Order
           </h3>
-          <p className="text-gray-5 text-sm">Fill your project information.</p>
+          <p className="text-gray-5 text-sm">
+            Fill your work order information.
+          </p>
         </div>
       </ModalHeader>
       <div className="w-full">
@@ -330,7 +332,7 @@ export default function ProjectForm(props: Props) {
             <label
               className="text-gray-500 font-semibold text-sm"
               htmlFor="projectType">
-              Project Type<span className="text-primary">*</span>
+              Work Order Type<span className="text-primary">*</span>
             </label>
             <div className="w-full flex">
               <Controller
@@ -378,7 +380,7 @@ export default function ProjectForm(props: Props) {
             <label
               className="text-gray-500 font-semibold text-sm"
               htmlFor="projectName">
-              Project Name<span className="text-primary">*</span>
+              Work Order Name<span className="text-primary">*</span>
             </label>
             <div className="w-full flex">
               <input

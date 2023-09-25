@@ -505,7 +505,7 @@ export default function UnitBatchForm({
         className="p-4 bg-white rounded-t-xl border-b-2 border-gray">
         <div className="w-full flex gap-2 items-center justify-between px-2">
           <h3 className="text-lg font-semibold">
-            {isUpdate ? "Edit" : "Add"} Unit
+            {isUpdate ? "Edit" : "Add"} House
           </h3>
           <div
             className={`flex items-center gap-1 ${isUpdate ? "hidden" : ""}`}>
@@ -672,7 +672,7 @@ export default function UnitBatchForm({
               <label
                 className="text-gray-500 font-semibold text-sm"
                 htmlFor="unitOrder">
-                Unit Order <span className="text-primary">*</span>
+                House Order <span className="text-primary">*</span>
               </label>
               <Controller
                 render={({
@@ -690,7 +690,7 @@ export default function UnitBatchForm({
                     instanceId="unitOrder"
                     isDisabled={isChecked == undefined ? false : isChecked}
                     isMulti={false}
-                    placeholder="Unit Order"
+                    placeholder="House Order"
                     options={orderOption}
                     icon=""
                   />
@@ -712,7 +712,7 @@ export default function UnitBatchForm({
               <label
                 className="text-gray-500 font-semibold text-sm"
                 htmlFor="unitType">
-                Unit Type <span className="text-primary">*</span>
+                House Type <span className="text-primary">*</span>
               </label>
               <Controller
                 render={({
@@ -730,7 +730,7 @@ export default function UnitBatchForm({
                     instanceId="unitType"
                     isDisabled={false}
                     isMulti={false}
-                    placeholder="Unit Type"
+                    placeholder="House Type"
                     options={unitTypeOpt}
                     icon=""
                   />
@@ -752,11 +752,11 @@ export default function UnitBatchForm({
               <label
                 className="text-gray-500 font-semibold text-sm"
                 htmlFor="unitName">
-                Unit Name <span className="text-primary">*</span>
+                House Name <span className="text-primary">*</span>
               </label>
               <input
                 type="text"
-                placeholder="Unit Name"
+                placeholder="House Name"
                 autoFocus
                 id="unitName"
                 className={`bg-white w-full text-sm rounded-lg border border-stroke bg-transparent py-3 px-4 outline-none focus:border-primary focus-visible:shadow-none dark:border-form-strokedark dark:bg-form-input dark:focus:border-primary  disabled:bg-gray-3`}
@@ -777,10 +777,10 @@ export default function UnitBatchForm({
               <label
                 className="text-gray-500 font-semibold text-sm"
                 htmlFor="unitDescription">
-                Unit Description
+                House Description
               </label>
               <textarea
-                placeholder="Unit Description"
+                placeholder="House Description"
                 maxLength={400}
                 id="unitDescription"
                 rows={3}
@@ -797,11 +797,11 @@ export default function UnitBatchForm({
               <label
                 className="text-gray-500 font-semibold text-sm"
                 htmlFor="unitSize">
-                Unit Size <span className="text-primary">*</span>
+                House Size <span className="text-primary">*</span>
               </label>
               <input
                 type="number"
-                placeholder="Unit Size"
+                placeholder="House Size"
                 autoFocus
                 id="unitSize"
                 className={`bg-white w-1/2 text-sm rounded-lg border border-stroke bg-transparent py-3 px-4 outline-none focus:border-primary focus-visible:shadow-none dark:border-form-strokedark dark:bg-form-input dark:focus:border-primary  disabled:bg-transparent`}

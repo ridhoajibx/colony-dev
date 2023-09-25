@@ -332,7 +332,7 @@ const TableView = ({ pageProps }: Props) => {
     () => [
       {
         accessorKey: "projectType",
-        header: (info) => <div className="uppercase">Project Type</div>,
+        header: (info) => <div className="uppercase">Work Order Type</div>,
         cell: ({ row, getValue }) => {
           const val = getValue()?.projectTypeName;
           return (
@@ -355,7 +355,7 @@ const TableView = ({ pageProps }: Props) => {
       },
       {
         accessorKey: "projectCode",
-        header: (info) => <div className="uppercase">Project ID</div>,
+        header: (info) => <div className="uppercase">Work Order ID</div>,
         cell: ({ row, getValue }) => {
           return (
             <div
@@ -370,7 +370,7 @@ const TableView = ({ pageProps }: Props) => {
       },
       {
         accessorKey: "projectName",
-        header: (info) => <div className="uppercase">Project Name</div>,
+        header: (info) => <div className="uppercase">Work Order Name</div>,
         cell: ({ row, getValue }) => {
           return (
             <div
@@ -746,7 +746,7 @@ const TableView = ({ pageProps }: Props) => {
                   className="rounded-lg text-sm font-semibold py-3"
                   onClick={onOpenModalAdd}
                   variant="primary">
-                  <span className="hidden lg:inline-block">New Project</span>
+                  <span className="hidden lg:inline-block">New Work Order</span>
                   <MdAdd className="w-4 h-4" />
                 </Button>
               </div>
