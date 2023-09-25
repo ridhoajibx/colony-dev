@@ -223,7 +223,7 @@ const TransactionTenant = ({ pageProps }: Props) => {
       {
         accessorKey: "loccalshopName",
         header: (info) => (
-          <div className="uppercase w-full text-center">Localshop</div>
+          <div className="uppercase w-full text-center">Local shop</div>
         ),
         cell: ({ row, getValue }) => {
           const value = getValue();
@@ -344,7 +344,7 @@ const TransactionTenant = ({ pageProps }: Props) => {
             </div>
 
             <div className="w-full mt-5 font-bold">
-              <h3 className="text-lg">Unit Code</h3>
+              <h3 className="text-lg">House Code</h3>
               <div className="text-base w-full flex items-center gap-2">
                 <MdBusiness className="w-8 h-8" />
                 <span>{units?.unitName || "-"}</span>
@@ -373,7 +373,7 @@ const TransactionTenant = ({ pageProps }: Props) => {
                 units?.unitAmenities?.map((item: any, idx: any) => (
                   <div
                     key={idx}
-                    className="text-base w-full flex items-center gap-2 font-normal">
+                    className="text-base w-full flex items-center gap-2 mt-2 font-normal">
                     <div className="w-1/5 flex justify-center">
                       {item?.amenity?.amenityName
                         ? amenityIcon(item?.amenity?.amenityName)
@@ -411,7 +411,7 @@ const TransactionTenant = ({ pageProps }: Props) => {
                 />
               </button>
               <h3 className="w-full lg:max-w-max text-center text-2xl font-semibold text-graydark">
-                Tenant Owner
+                Residents
               </h3>
             </div>
           </div>
@@ -441,7 +441,7 @@ const TransactionTenant = ({ pageProps }: Props) => {
             </div>
 
             <div className="w-full p-2 text-gray-6 tracking-wide ">
-              <h3 className="text-lg font-bold mb-3">Owner</h3>
+              <h3 className="text-lg font-bold mb-3">Tenant</h3>
               <Cards className="w-full bg-white border border-gray shadow-card rounded-lg p-4 mb-3 text-gray-6">
                 <div className="w-full text-sm flex items-center gap-2 overflow-hidden">
                   <img
@@ -458,7 +458,7 @@ const TransactionTenant = ({ pageProps }: Props) => {
                 </div>
               </Cards>
 
-              <h3 className="text-lg font-bold mb-3">Occupant</h3>
+              <h3 className="text-lg font-bold mb-3">Member</h3>
               <Cards className="w-full bg-white border border-gray shadow-card rounded-lg p-4 mb-3 text-gray-6">
                 <div className="w-full text-sm flex items-center gap-2 overflow-hidden">
                   <img

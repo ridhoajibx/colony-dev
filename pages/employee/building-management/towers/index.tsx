@@ -303,7 +303,7 @@ const Towers = ({ pageProps }: Props) => {
   return (
     <DefaultLayout
       title="Colony"
-      header="Building Management"
+      header="Residential Management"
       head="Cluster Management"
       logo="../../image/logo/logo-icon.svg"
       description=""

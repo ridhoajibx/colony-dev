@@ -257,7 +257,7 @@ const DomainProperty = ({ pageProps }: Props) => {
       title: {
         display: true,
         align: "start",
-        text: "Total Income (Million IDR)",
+        text: "Total Visitation",
         font: {
           weight: "300",
           size: "16px",
@@ -524,7 +524,7 @@ const DomainProperty = ({ pageProps }: Props) => {
                       onClick={() => console.log("open")}
                       variant="primary"
                       className="border-2 rounded-lg py-4 px-4 text-sm">
-                      <span>Manage Property</span>
+                      <span>Manage House</span>
                       <MdArrowRightAlt className="w-5 h-5" />
                     </Button>
                   </div>
@@ -551,7 +551,7 @@ const DomainProperty = ({ pageProps }: Props) => {
 
                       <div className="flex items-center justify-between">
                         <div>
-                          Units
+                          Total House
                           <p className="font-semibold">
                             {property?.totalUnitOccupant}/
                             <span className="text-gray-5">
@@ -560,7 +560,7 @@ const DomainProperty = ({ pageProps }: Props) => {
                           </p>
                         </div>
                         <div>
-                          Tenants
+                          Total Residents
                           <p className="font-semibold">
                             {property?.totalUnitTenant}
                           </p>
@@ -618,7 +618,7 @@ const DomainProperty = ({ pageProps }: Props) => {
                     <Cards className="w-full bg-white shadow-card text-gray-6 font-thin text-sm sm:text-base rounded-xl border border-gray p-4">
                       <div className="w-full grid col-span-1 lg:grid-cols-2 gap-2 items-center">
                         <h3 className="font-semibold text-title-md">
-                          Revenue Growth (Million IDR)
+                          Visitation Record
                         </h3>
                         <div className="flex items-center gap-2 justify-end">
                           <button

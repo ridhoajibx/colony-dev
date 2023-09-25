@@ -38,7 +38,7 @@ const DomainHome = ({ pageProps }: Props) => {
   const { properties, pending, error } = useAppSelector(selectDomainProperty);
 
   let doughnutData = {
-    labels: ["Guest", "Available", "Tenants"],
+    labels: ["Guest", "Available", "Residents"],
     datasets: [
       {
         label: "# Votes",
@@ -123,7 +123,7 @@ const DomainHome = ({ pageProps }: Props) => {
         display: true,
         position: "top",
         align: "start",
-        text: "Unit per apartment",
+        text: "House per Residential",
         font: {
           size: 16,
           weight: 300,
@@ -167,7 +167,7 @@ const DomainHome = ({ pageProps }: Props) => {
       title: {
         display: true,
         align: "start",
-        text: "Total Income (Million IDR)",
+        text: "Total Visitation",
         font: {
           weight: "300",
           size: "16px",
@@ -268,7 +268,7 @@ const DomainHome = ({ pageProps }: Props) => {
                   <h3 className="text-lg lg:text-title-lg font-semibold">
                     {domain?.domainName}
                   </h3>
-                  <p className="text-sm lg:text-base">Manage your property</p>
+                  <p className="text-sm lg:text-base">Manage your House</p>
                 </div>
               </div>
 
@@ -291,17 +291,17 @@ const DomainHome = ({ pageProps }: Props) => {
                 <Cards className="w-full lg:col-span-2 bg-white shadow-md text-gray-6 font-thin text-sm sm:text-base rounded-xl border border-gray p-4">
                   <div className="w-full grid grid-cols-4 border-b-2 border-gray p-4">
                     <div className="w-full">
-                      <h3>Total Property</h3>
+                      <h3>Total Residential</h3>
                       <p className="font-semibold">32</p>
                     </div>
 
                     <div className="w-full">
-                      <h3>Total Unit</h3>
+                      <h3>Total House</h3>
                       <p className="font-semibold">3225</p>
                     </div>
 
                     <div className="w-full">
-                      <h3>Total Tenant</h3>
+                      <h3>Total Residents</h3>
                       <p className="font-semibold">2412</p>
                     </div>
 

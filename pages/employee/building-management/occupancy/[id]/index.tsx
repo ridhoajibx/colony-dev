@@ -316,7 +316,7 @@ const UnitDetails = ({ pageProps }: Props) => {
   return (
     <DefaultLayout
       title="Colony"
-      header="Building Management"
+      header="Residential Management"
       head="Units"
       logo="../../../image/logo/logo-icon.svg"
       images="../../../image/logo/building-logo.svg"

@@ -50,7 +50,7 @@ export const menuPropertyMaster: MenuProps[] = [
   {
     subMenus: [
       {
-        pathname: "Building Management",
+        pathname: "Residential Management",
         pages: "building-management",
         url: "/employee/building-management",
         icons: {
@@ -795,7 +795,7 @@ export const menuOwnerMaster: MenuProps[] = [
     url: "/owner/home",
   },
   {
-    pathname: "Properties",
+    pathname: "Residential",
     pages: "properties",
     url: "/owner/properties",
     query: {

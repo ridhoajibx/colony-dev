@@ -526,14 +526,14 @@ const DomainProperty = ({ pageProps }: Props) => {
                     variant="primary"
                     className="rounded-lg"
                     onClick={isOpenForm}>
-                    New Property
+                    New House
                     <MdAdd className="w-5 h-5" />
                   </Button>
                 </div>
                 <div className="w-full grid col-span-1 gap-4 tracking-wider mb-5">
                   <div className="px-8">
                     <h3 className="text-lg lg:text-title-lg font-semibold">
-                      Property List
+                      House List
                     </h3>
                   </div>
                   <CardTables

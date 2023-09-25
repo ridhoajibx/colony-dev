@@ -349,8 +349,7 @@ const OwnerAccess = ({ pageProps }: Props) => {
                     />
                     <h3 className="font-semibold">Access</h3>
                     <p className="text-sm">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Atque, beatae!
+                      Empower you with effortless control over houses.
                     </p>
                   </button>
 
@@ -363,10 +362,10 @@ const OwnerAccess = ({ pageProps }: Props) => {
                       alt="icon"
                       className="w-14 h-14 object-contain"
                     />
-                    <h3 className="font-semibold">House</h3>
+                    <h3 className="font-semibold">Residential</h3>
                     <p className="text-sm">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Atque, beatae!
+                      Experience the convenience of house management at your
+                      fingertips.
                     </p>
                   </button>
 
@@ -385,8 +384,8 @@ const OwnerAccess = ({ pageProps }: Props) => {
                     />
                     <h3 className="font-semibold">Tenant</h3>
                     <p className="text-sm">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Atque, beatae!
+                      Simplify house oversight for residents, designed for
+                      ultimate ease.
                     </p>
                   </button>
 

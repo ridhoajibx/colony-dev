@@ -528,7 +528,7 @@ const ParkingLot = ({ pageProps }: Props) => {
   return (
     <DefaultLayout
       title="Colony"
-      header="Building Management"
+      header="Residential Management"
       head="Parking Lot"
       logo="../../../image/logo/logo-icon.svg"
       images="../../../image/logo/building-logo.svg"

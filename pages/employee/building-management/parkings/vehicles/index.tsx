@@ -499,7 +499,7 @@ const Vehicles = ({ pageProps }: Props) => {
   return (
     <DefaultLayout
       title="Colony"
-      header="Building Management"
+      header="Residential Management"
       head="Vehicle Registered"
       logo="../../../image/logo/logo-icon.svg"
       images="../../../image/logo/building-logo.svg"

@@ -396,7 +396,7 @@ const Amenities = ({ pageProps }: Props) => {
   return (
     <DefaultLayout
       title="Colony"
-      header="Building Management"
+      header="Residential Management"
       head="Amenities"
       logo="../../../image/logo/logo-icon.svg"
       images="../../../image/logo/building-logo.svg"

@@ -422,7 +422,7 @@ const Tenants = ({ pageProps }: Props) => {
   return (
     <DefaultLayout
       title="Colony"
-      header="Building Management"
+      header="Residential Management"
       head="Tenant Management"
       logo="../../../image/logo/logo-icon.svg"
       images="../../../image/logo/building-logo.svg"
