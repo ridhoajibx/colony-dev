@@ -137,23 +137,23 @@ export default function TowerForm(props: Props) {
           <h3 className="text-lg font-semibold">
             {isUpdate ? "Edit" : "Add"} Tower
           </h3>
-          <p className="text-gray-4">Fill your tower information.</p>
+          <p className="text-gray-4">Fill your Cluster information.</p>
         </div>
       </ModalHeader>
       <form className="w-full p-4">
         <div className="w-full mb-3">
           <label className="text-gray-500 font-semibold" htmlFor="">
-            Tower Identity <span className="text-primary">*</span>
+            Cluster Identity <span className="text-primary">*</span>
           </label>
           <input
             type="text"
-            placeholder="Tower Identity ..."
+            placeholder="Cluster Identity ..."
             autoFocus
             className={`w-full text-sm rounded-lg border border-stroke bg-transparent py-3 px-4 outline-none focus:border-primary focus-visible:shadow-none dark:border-form-strokedark dark:bg-form-input dark:focus:border-primary disabled:border-0 disabled:bg-transparent`}
             {...register("towerName", {
               required: {
                 value: true,
-                message: "Tower Identity is required.",
+                message: "Cluster Identity is required.",
               },
             })}
           />
@@ -169,13 +169,13 @@ export default function TowerForm(props: Props) {
 
         <div className="w-full mb-3">
           <label className="text-gray-500 font-semibold" htmlFor="">
-            Tower Description
+            Cluster Description
           </label>
           <textarea
             cols={0.5}
             rows={5}
             maxLength={400}
-            placeholder="Tower Description..."
+            placeholder="Cluster Description..."
             className="w-full text-sm rounded-lg border border-stroke bg-white py-2 px-4 outline-none focus:border-primary focus-visible:shadow-none dark:border-form-strokedark dark:bg-form-input dark:focus:border-primary"
             {...register("towerDescription")}
           />

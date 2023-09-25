@@ -238,7 +238,7 @@ const Home = ({ pageProps }: Props) => {
                       alt="icon"
                       className="w-14 h-14 object-contain"
                     />
-                    <h3 className="font-semibold">Owner</h3>
+                    <h3 className="font-semibold">Access</h3>
                     <p className="text-sm">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Atque, beatae!
@@ -259,7 +259,7 @@ const Home = ({ pageProps }: Props) => {
                       alt="icon"
                       className="w-14 h-14 object-contain"
                     />
-                    <h3 className="font-semibold">Employee</h3>
+                    <h3 className="font-semibold">House</h3>
                     <p className="text-sm">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Atque, beatae!
@@ -286,7 +286,7 @@ const Home = ({ pageProps }: Props) => {
                     </p>
                   </button>
 
-                  <button
+                  {/* <button
                     type="button"
                     onClick={() => gotToAccess("merchant")}
                     className="tracking-wide w-full flex flex-col flex-1 border border-gray shadow-card-2 p-4 rounded-xl gap-2 text-left">
@@ -300,7 +300,7 @@ const Home = ({ pageProps }: Props) => {
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Atque, beatae!
                     </p>
-                  </button>
+                  </button> */}
                 </div>
                 <div className="w-full flex flex-col justify-center gap-6">
                   <div className="w-full flex flex-col gap-2 items-start text-left">
@@ -327,7 +327,7 @@ const Home = ({ pageProps }: Props) => {
             <div className="w-full h-full flex flex-col items-center">
               <div className="w-full sticky top-0 z-9999 bg-gray p-8">
                 <div className="w-full">
-                  <h3 className="text-title-lg font-semibold">Access List</h3>
+                  <h3 className="text-title-lg font-semibold">House List</h3>
                   <p className="text-base text-gray-5">Select your workspace</p>
                 </div>
               </div>

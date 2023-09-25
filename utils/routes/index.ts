@@ -163,7 +163,7 @@ export const menuBM: MenuProps[] = [
     },
   },
   {
-    pathname: "Tower Management",
+    pathname: "Cluster Management",
     pages: "towers",
     url: "/employee/building-management/towers",
     query: {
@@ -175,18 +175,18 @@ export const menuBM: MenuProps[] = [
       className: "w-5 h-5",
     },
   },
-  {
-    pathname: "Area Grouping",
-    url: "/employee/building-management/areas",
-    query: {
-      page: 1,
-      limit: 10,
-    },
-    icons: {
-      icon: MdOutlineMap,
-      className: "w-5 h-5",
-    },
-  },
+  // {
+  //   pathname: "Area Grouping",
+  //   url: "/employee/building-management/areas",
+  //   query: {
+  //     page: 1,
+  //     limit: 10,
+  //   },
+  //   icons: {
+  //     icon: MdOutlineMap,
+  //     className: "w-5 h-5",
+  //   },
+  // },
   {
     subMenus: [
       {
@@ -371,7 +371,7 @@ export const menuTask: MenuProps[] = [
     },
   },
   {
-    pathname: "Projects",
+    pathname: "Work Order",
     pages: "projects",
     icons: {
       icon: MdOutlinePeopleAlt,

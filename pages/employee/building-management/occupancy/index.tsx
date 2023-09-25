@@ -441,7 +441,7 @@ const Occupancy = ({ pageProps }: Props) => {
                 <MdOutlinePeople className="w-5 h-5" />
               </Button>
 
-              <Button
+              {/* <Button
                 type="button"
                 className="rounded-lg text-sm font-semibold py-3"
                 onClick={() => console.log("klik")}
@@ -451,7 +451,7 @@ const Occupancy = ({ pageProps }: Props) => {
                   New Request
                 </span>
                 <MdOutlineVpnKey className="w-4 h-4" />
-              </Button>
+              </Button> */}
             </div>
           </div>
 

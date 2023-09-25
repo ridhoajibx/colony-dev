@@ -449,7 +449,7 @@ const CardTower = ({
               variant="primary"
               type="button"
               onClick={() => openAddFloorModal(items)}>
-              <span className="hidden lg:inline-block">New Floor</span>
+              <span className="hidden lg:inline-block">New Street</span>
               <MdAdd className="w-4 h-4" />
             </Button>
           </div>

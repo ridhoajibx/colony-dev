@@ -304,7 +304,7 @@ const Towers = ({ pageProps }: Props) => {
     <DefaultLayout
       title="Colony"
       header="Building Management"
-      head="Tower Management"
+      head="Cluster Management"
       logo="../../image/logo/logo-icon.svg"
       description=""
       images="../../image/logo/building-logo.svg"
@@ -346,7 +346,7 @@ const Towers = ({ pageProps }: Props) => {
                 />
               </button>
               <h3 className="w-full lg:max-w-max text-center text-2xl font-semibold text-graydark">
-                Tower Management
+                Cluster Management
               </h3>
             </div>
             <div className="w-full lg:max-w-max flex items-center justify-center gap-2 lg:ml-auto">
@@ -383,7 +383,7 @@ const Towers = ({ pageProps }: Props) => {
                 className="rounded-lg text-sm font-semibold py-3"
                 onClick={() => setIsOpenTower(true)}
                 variant="primary">
-                <span className="hidden lg:inline-block">New Tower</span>
+                <span className="hidden lg:inline-block">New Cluster</span>
                 <MdAdd className="w-4 h-4" />
               </Button>
             </div>

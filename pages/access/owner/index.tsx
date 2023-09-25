@@ -347,7 +347,7 @@ const OwnerAccess = ({ pageProps }: Props) => {
                       alt="icon"
                       className="w-14 h-14 object-contain"
                     />
-                    <h3 className="font-semibold">Owner</h3>
+                    <h3 className="font-semibold">Access</h3>
                     <p className="text-sm">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Atque, beatae!
@@ -363,7 +363,7 @@ const OwnerAccess = ({ pageProps }: Props) => {
                       alt="icon"
                       className="w-14 h-14 object-contain"
                     />
-                    <h3 className="font-semibold">Employee</h3>
+                    <h3 className="font-semibold">House</h3>
                     <p className="text-sm">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Atque, beatae!
@@ -390,7 +390,7 @@ const OwnerAccess = ({ pageProps }: Props) => {
                     </p>
                   </button>
 
-                  <button
+                  {/* <button
                     type="button"
                     onClick={() => gotToAccess("merchant")}
                     className="tracking-wide w-full flex flex-col flex-1 border border-gray shadow-card-2 p-4 rounded-xl gap-2 text-left">
@@ -404,7 +404,7 @@ const OwnerAccess = ({ pageProps }: Props) => {
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Atque, beatae!
                     </p>
-                  </button>
+                  </button> */}
                 </div>
                 <div className="w-full flex flex-col justify-center gap-6">
                   <div className="w-full flex flex-col gap-2 items-start text-left">
@@ -440,7 +440,7 @@ const OwnerAccess = ({ pageProps }: Props) => {
                     variant="primary"
                     onClick={isOpenForm}
                     className="lg:ml-auto rounded-lg">
-                    <span>New Company</span>
+                    <span>New Access</span>
                     <MdAdd className="w-6 h-6" />
                   </Button>
                 </div>
@@ -507,20 +507,20 @@ const OwnerAccess = ({ pageProps }: Props) => {
             isClose
             onClick={isCloseForm}>
             <div className="w-full">
-              <h3 className="text-lg font-bold">New Company</h3>
+              <h3 className="text-lg font-bold">New Access</h3>
             </div>
           </ModalHeader>
 
           <div className="w-full p-4">
             <div className="w-full mb-3 px-4">
               <label className="mb-2.5 block font-medium text-black dark:text-white">
-                Company Name
+                Access Name
                 <span>*</span>
               </label>
               <div className="relative">
                 <input
                   type="text"
-                  placeholder="Company Name..."
+                  placeholder="Access Name..."
                   className="w-full rounded-xl border border-stroke bg-transparent py-3 px-4 outline-none focus:border-primary focus-visible:shadow-none dark:border-form-strokedark dark:bg-form-input dark:focus:border-primary"
                   {...register("domainName", {
                     required: {
@@ -542,7 +542,7 @@ const OwnerAccess = ({ pageProps }: Props) => {
 
             <div className="w-full mb-3 px-4">
               <label className="mb-2.5 block font-medium text-black dark:text-white">
-                Company Description
+                Access Description
                 <span>*</span>
               </label>
               <div className="relative">
@@ -551,7 +551,7 @@ const OwnerAccess = ({ pageProps }: Props) => {
                   rows={5}
                   maxLength={400}
                   autoFocus
-                  placeholder="Domain Description..."
+                  placeholder="Access Description..."
                   className="w-full rounded-lg border border-stroke bg-white py-2 px-4 outline-none focus:border-primary focus-visible:shadow-none dark:border-form-strokedark dark:bg-form-input dark:focus:border-primary"
                   {...register("domainDescription")}
                 />

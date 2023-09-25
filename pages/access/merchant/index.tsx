@@ -387,7 +387,7 @@ const OwnerAccess = ({ pageProps }: Props) => {
                     </p>
                   </button>
 
-                  <button
+                  {/* <button
                     type="button"
                     onClick={() => gotToAccess("merchant")}
                     className={`tracking-wide w-full flex flex-col flex-1 border border-gray shadow-card-2 p-4 rounded-xl gap-2 text-left ${
@@ -405,7 +405,7 @@ const OwnerAccess = ({ pageProps }: Props) => {
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Atque, beatae!
                     </p>
-                  </button>
+                  </button> */}
                 </div>
                 <div className="w-full flex flex-col justify-center gap-6">
                   <div className="w-full flex flex-col gap-2 items-start text-left">
