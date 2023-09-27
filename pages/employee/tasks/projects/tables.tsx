@@ -636,7 +636,7 @@ const TableView = ({ pageProps }: Props) => {
         token,
         id: value?.id,
         isSuccess() {
-          toast.dark("Project has been deleted");
+          toast.dark("Work order has been deleted");
           dispatch(getProjects({ token, params: filters.queryObject }));
           onCloseModalDelete();
         },

@@ -124,7 +124,7 @@ const TenantAccessPage = ({ pageProps }: Props) => {
     return (
       <button
         type="button"
-        className="w-full h-full divide-y-2 lg:divide-y-0 lg:divide-x-2 divide-gray max-h-[200xp] tracking-wide flex flex-col lg:flex-row bg-white border border-gray shadow-card-2 p-4 rounded-xl gap-2 focus:outline-none overflow-hidden"
+        className="w-full h-full divide-y-2 lg:divide-y-0 lg:divide-x-2 divide-gray max-h-[200xp] tracking-wide flex flex-col lg:flex-row lg:items-center bg-white border border-gray shadow-card-2 p-4 rounded-xl gap-2 focus:outline-none overflow-hidden"
         onClick={() => goToTenantAccess(id)}>
         <img
           src={
@@ -152,7 +152,7 @@ const TenantAccessPage = ({ pageProps }: Props) => {
               </div>
             </div>
 
-            <div className="border border-gray w-full my-2"></div>
+            <div className="border border-gray h-full w-full my-2"></div>
 
             <div className="w-full flex items-center text-left gap-2">
               <div className="font-semibold text-gray-5 flex items-center gap-2">

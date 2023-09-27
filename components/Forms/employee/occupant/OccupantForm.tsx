@@ -255,7 +255,7 @@ export default function OccupantForm({
           data: newData,
           isSuccess() {
             getData();
-            toast.dark("Owner has been added");
+            toast.dark("Resident has been added");
             isCloseModal();
           },
         })
@@ -268,7 +268,7 @@ export default function OccupantForm({
           data: newData,
           isSuccess() {
             getData();
-            toast.dark("Occupant has been added");
+            toast.dark("Member has been added");
             isCloseModal();
           },
         })

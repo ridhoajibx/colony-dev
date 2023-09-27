@@ -411,7 +411,7 @@ const Towers = ({ pageProps }: Props) => {
               ) : (
                 <div className="w-full flex justify-center items-center">
                   <span className="text-gray-5 font-semibold m-auto">
-                    Data tower not found!
+                    Data cluster not found!
                   </span>
                 </div>
               )}

@@ -146,7 +146,7 @@ const Kanban = ({ item, taskData, token, loading }: Props) => {
         taskId: newMove?.id,
         data: newMove,
         isSuccess() {
-          toast.dark("Task remove to " + newMove?.status);
+          toast.dark("Task removed to " + newMove?.status);
           dispatch(getTasksByIdProject({ token, id: query?.id }));
           dispatch(getProjectById({ token, id: query?.id }));
         },

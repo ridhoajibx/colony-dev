@@ -591,7 +591,9 @@ const TaskDetail = ({ pageProps }: Props) => {
                     className="rounded-lg text-sm font-semibold py-3"
                     onClick={() => onOpenModalEdit(projectData)}
                     variant="primary-outline">
-                    <span className="hidden lg:inline-block">Edit Project</span>
+                    <span className="hidden lg:inline-block">
+                      Edit Work Order
+                    </span>
                     <MdEdit className="w-4 h-4" />
                   </Button>
 

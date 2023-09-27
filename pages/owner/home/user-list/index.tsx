@@ -531,7 +531,7 @@ const DomainUserManagement = ({ pageProps }: Props) => {
                       onClick={() => router.push("/owner/home")}>
                       <MdChevronLeft className="w-5 h-5" />
                       <h3 className="text-lg lg:text-title-lg font-semibold">
-                        Manage Domain
+                        Manage Access
                       </h3>
                     </button>
                   </div>

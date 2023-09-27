@@ -278,7 +278,7 @@ const DomainHome = ({ pageProps }: Props) => {
                   variant="primary"
                   className="rounded-lg"
                   onClick={goToManage}>
-                  <span>Manage Domain</span>
+                  <span>Manage Access</span>
                   <MdSettings className="w-5 h-5" />
                 </Button>
               </div>

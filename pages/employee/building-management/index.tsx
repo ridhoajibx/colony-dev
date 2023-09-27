@@ -436,7 +436,7 @@ const Dashboard = ({ pageProps }: Props) => {
 
                 <Cards className="w-full bg-white shadow-md text-gray-6 font-thin text-sm sm:text-base rounded-xl border border-gray">
                   <div className="w-full p-4 flex flex-col gap-4">
-                    <h1>Total Owner</h1>
+                    <h1>Total Resident</h1>
                     <div className="w-full flex items-center gap-2">
                       <span className="w-full lg:w-2/12 font-semibold">
                         522

@@ -535,10 +535,10 @@ const CardTower = ({
             className="p-4 border-b-2 border-gray mb-3"
             isClose={true}
             onClick={closeDeleteFloorModal}>
-            <h3 className="text-lg font-semibold">Delete Floor</h3>
+            <h3 className="text-lg font-semibold">Delete Street</h3>
           </ModalHeader>
           <div className="w-full my-5 px-4">
-            <h3>Are you sure to delete floor data ?</h3>
+            <h3>Are you sure to delete street data ?</h3>
           </div>
 
           <ModalFooter

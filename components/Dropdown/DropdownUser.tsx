@@ -226,7 +226,7 @@ const DropdownUser = ({ userDefault, token }: DropdownUserProps) => {
               fill=""
             />
           </svg>
-          Log Out
+          Sign Out
         </button>
       </div>
       {/* <!-- Dropdown End --> */}
@@ -236,7 +236,7 @@ const DropdownUser = ({ userDefault, token }: DropdownUserProps) => {
         <div className="w-full px-6 flex flex-col items-center justify-center min-h-full h-[350px] max-h-[650px] gap-4 text-graydark tracking-wider">
           <h3 className="text-title-xl2 font-bold">Sign Out</h3>
           <FaRegQuestionCircle className="w-20 h-20 text-primary" />
-          <p>Are you sure to Sign Out ?</p>
+          <p>Do you want to Sign Out ?</p>
           <div className="w-full flex items-center gap-2 justify-center">
             <Button
               className="rounded-lg px-4"

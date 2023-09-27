@@ -275,7 +275,7 @@ const UnitDetails = ({ pageProps }: Props) => {
         data: newObj,
         isSuccess() {
           setLoading(false);
-          toast.dark("User as an owner has been deleted");
+          toast.dark("User as a resident has been deleted");
           onCloseDeleteOwner();
           dispatch(getUnitsTenant({ token, params: filters.queryObject }));
         },
@@ -301,7 +301,7 @@ const UnitDetails = ({ pageProps }: Props) => {
         data: newObj,
         isSuccess() {
           setLoading(false);
-          toast.dark("User as an occupant has been deleted");
+          toast.dark("User as a member has been deleted");
           onCloseDeleteOccupant();
           dispatch(getUnitsTenant({ token, params: filters.queryObject }));
         },
@@ -468,14 +468,14 @@ const UnitDetails = ({ pageProps }: Props) => {
               <div className="w-full shadow-1">
                 <div className="w-full flex flex-col gap-4 p-6 2xl:p-10">
                   <div className="w-full flex flex-col gap-2">
-                    <h3 className="text-gray-5">Owner</h3>
+                    <h3 className="text-gray-5">Resident</h3>
                     {unitData?.tenant?.user == undefined ||
                     !unitData?.tenant?.user ? (
                       <div className="w-full flex flex-col lg:flex-row gap-2 p-4 rounded-xl shadow-card-2 border-2 border-dashed border-gray-4 bg-gray">
                         <div className="w-full lg:w-4/5 flex flex-col text-sm gap-1 text-center lg:text-left">
-                          <h3 className="font-semibold">Set an owner</h3>
+                          <h3 className="font-semibold">Set an resident</h3>
                           <div className="text-gray-5">
-                            There is no owner in this unit
+                            There is no resident in this unit
                           </div>
                         </div>
                         <div className="w-full lg:w-1/5 flex">
@@ -514,14 +514,14 @@ const UnitDetails = ({ pageProps }: Props) => {
                   </div>
 
                   <div className="w-full flex flex-col gap-2">
-                    <h3 className="text-gray-5">Occupant</h3>
+                    <h3 className="text-gray-5">Member</h3>
                     {unitData?.occupant?.user == undefined ||
                     !unitData?.occupant?.user ? (
                       <div className="w-full flex flex-col lg:flex-row gap-2 p-4 rounded-xl shadow-card-2 border-2 border-dashed border-gray-4 bg-gray">
                         <div className="w-full lg:w-4/5 flex flex-col text-sm gap-1 text-center lg:text-left">
-                          <h3 className="font-semibold">Set an occupant</h3>
+                          <h3 className="font-semibold">Set a member</h3>
                           <div className="text-gray-5">
-                            There is no occupant in this unit
+                            There is no member in this unit
                           </div>
                         </div>
                         <div className="w-full lg:w-1/5 flex">
@@ -775,9 +775,10 @@ const UnitDetails = ({ pageProps }: Props) => {
             isClose={true}
             onClick={onCloseDeleteOwner}>
             <div className="text-gray-6">
-              <h3 className="text-md font-semibold">Delete Owner</h3>
+              <h3 className="text-md font-semibold">Delete Resident</h3>
               <p className="text-xs">
-                Are you sure to delete owner {formData?.tenant?.user?.nickName}
+                Are you sure to delete resident{" "}
+                {formData?.tenant?.user?.nickName}
               </p>
             </div>
           </ModalHeader>
@@ -820,10 +821,9 @@ const UnitDetails = ({ pageProps }: Props) => {
             isClose={true}
             onClick={onCloseDeleteOccupant}>
             <div className="text-gray-6">
-              <h3 className="text-md font-semibold">Delete Occupant</h3>
+              <h3 className="text-md font-semibold">Delete Member</h3>
               <p className="text-xs">
-                Are you sure to delete occupant{" "}
-                {formData?.tenant?.user?.nickName}
+                Are you sure to delete member {formData?.tenant?.user?.nickName}
               </p>
             </div>
           </ModalHeader>
